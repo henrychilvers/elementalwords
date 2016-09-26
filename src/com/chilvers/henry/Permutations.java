@@ -4,6 +4,12 @@ import java.util.*;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
+/**
+ * Borrowed from...
+ * http://minborgsjavapot.blogspot.com/2015/07/java-8-master-permutations.html
+ *
+ * Created by Henry on 9/25/2016.
+ */
 class Permutations {
     private Permutations() {
     }
