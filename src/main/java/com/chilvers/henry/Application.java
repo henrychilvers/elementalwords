@@ -1,9 +1,6 @@
 package com.chilvers.henry;
 
-import org.kohsuke.args4j.CmdLineException;
-import org.kohsuke.args4j.CmdLineParser;
-import org.kohsuke.args4j.ExampleMode;
-import org.kohsuke.args4j.Option;
+import org.kohsuke.args4j.*;
 import org.springframework.util.StopWatch;
 
 import java.io.IOException;
@@ -199,7 +196,7 @@ public class Application {
             System.err.println();
 
             // print option sample. This is useful some time
-            System.err.println("  Example: java elementalwords" + parser.printExample(ExampleMode.ALL));
+            System.err.println("  Example: java elementalwords" + parser.printExample(OptionHandlerFilter.ALL));
         }
     }
 }
